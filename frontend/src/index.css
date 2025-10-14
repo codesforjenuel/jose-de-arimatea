@@ -5,13 +5,17 @@ width: 100%;
 
 body {
 margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #CAA356;
  width: 100%;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
-  background: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1759993251/jose%20de%20arimatea/Gemini_Generated_Image_qh3baiqh3baiqh3b_mkytbl.png");
-background-position: center;
+  background: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1759993238/jose%20de%20arimatea/Jose-de-Arimatea-paint-1_fjxphx.jpg");
+background-position:top;
 background-repeat: none;
 background-size: cover;
   display: flex;
@@ -19,7 +23,7 @@ flex-wrap: wrap;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-
+box-shadow: 2px 5px 30px 1px black;
 }
 
 .headerImg {
@@ -52,5 +56,60 @@ button {
 }
 
 button:hover {
-  background-color: #c0b17f;
+  background-color: #e0c97b;
+  transition: 500ms;
+}
+
+.missionContainer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background: #F7E9BA ;
+padding: 1%;
+margin: 4%;
+border-radius: 10px;
+box-shadow: 2px 7px 20px black;
+}
+
+.missionText {
+  padding: 2%;
+  width: 40%;
+}
+
+.missionRight {
+  background-color: #CAA356;
+  border-radius: 20px;
+  padding: 3%;
+  box-shadow: 2px 7px 20px black;
+}
+
+.aboutUsContainerOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#F7E9BA;
+  border-radius: 10px;
+  
+}
+
+.aboutTextContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.messagesContainer {
+  background: #e0c97b;
+ margin: 100px;
+ padding: 100px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
 }
