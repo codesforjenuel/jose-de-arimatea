@@ -28,9 +28,9 @@ export default function AboutUs() {
       </div>
       <div className="messagesContainer">
         <div>
-<img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415153/jose%20de%20arimatea/ChatGPT_Image_Oct_8_2025_12_52_12_AM_ajqqgn.png" alt="bible image" style={{width: 500}} />
+<img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415153/jose%20de%20arimatea/ChatGPT_Image_Oct_8_2025_12_52_12_AM_ajqqgn.png" alt="bible image" className="bibleImg" />
         </div>
-        <div>
+        <div className="textMessage">
             <p>"UNA FE SIN OBRAS ES UNA FE MUERTA" "FAITH WITHOUT WORKS IS DEAD"</p>
 <p> "EL QUE NO VIVE PARA SERVIR NO SIRVE  PARA VIVIR"                                              "HE WHO DOES NOT LIVE TO SERVE DOES NOT DESERVE TO LIVE"</p>
 <p>"HACER UNA DONACION ES LA MAXIMA SENAL DE SOLIDARIDAD. LAS ACCIONES HABLAN MAS FUERTE QUE LAS PALABRAS"
