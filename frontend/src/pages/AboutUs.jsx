@@ -1,3 +1,5 @@
+import DirectorCard from '../components/DirectorCard'
+
 export default function AboutUs() {
   return (
     <div>
@@ -6,7 +8,7 @@ export default function AboutUs() {
         <div className="aboutTextContainer">
           <p
             style={{
-              width: 300,
+              width: 90,
               marginRight: 100
             }}
           >
@@ -36,7 +38,7 @@ export default function AboutUs() {
 <p>"HACER UNA DONACION ES LA MAXIMA SENAL DE SOLIDARIDAD. LAS ACCIONES HABLAN MAS FUERTE QUE LAS PALABRAS"
                                                        -IBRAHIM HOOPER.</p>
         </div>
-
+<DirectorCard />
       </div>
     </div>
   );

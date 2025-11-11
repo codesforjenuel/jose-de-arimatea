@@ -3,20 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://codesforjenuel.github.io/jose-de-arimatea",
+  "homepage": "https://josedearimatea.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@stripe/stripe-js": "^8.0.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
