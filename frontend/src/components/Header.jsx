@@ -15,7 +15,7 @@ export default function Header() {
           target="https://buy.stripe.com/cNi3cve058sU4HS50iasg01"
           className="donationButton"
         >
-          <button>Donate/Donar</button>
+          <button>Donar</button>
           
         </a>
       </div>
