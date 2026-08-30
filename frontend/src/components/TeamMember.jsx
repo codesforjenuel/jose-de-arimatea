@@ -1,4 +1,4 @@
-export default function TeamMember({ name, role, image }) {
+export default function TeamMember({ name, role, image, phrase }) {
     return(
         <div>
              <div className="team-card">
@@ -6,6 +6,7 @@ export default function TeamMember({ name, role, image }) {
 
       <h3 className="team-name">{name}</h3>
       <p className="team-role">{role}</p>
+      <p>{phrase}</p>
     </div>
         </div>
     )
