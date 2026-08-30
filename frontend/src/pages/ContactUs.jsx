@@ -15,7 +15,7 @@ return(
         </div>
         <div className="contactInfo">
             <img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/google-location-icon-16_evbuor.png" alt="location icon" className="socialIcon"/>
-            <p>East Edinger Avenue, Santa Ana CA, 92705</p>
+            <p>1651 E Edinger Avenue, Santa Ana CA, 92705</p>
         </div>
         </div>
     </div>

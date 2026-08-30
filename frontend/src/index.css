@@ -8,7 +8,7 @@ margin: 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
- background-image: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1763428041/jose%20de%20arimatea/ChatGPT_Image_Nov_17_2025_05_06_26_PM_fydszl.png");
+ background-image: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1763447356/jose%20de%20arimatea/ChatGPT_Image_Nov_17_2025_10_29_08_PM_yxicfk.png");
  background-repeat: no-repeat;
  background-position: center;
  background-attachment: fixed;
@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 .nav {
 position: fixed;
-  height: 5.5%;
+  height: 10%;
   width: 100%;
   margin: 0;
   display: flex;
@@ -46,7 +46,6 @@ ul {
     display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
   width: 80%;
  list-style: none;
  }
@@ -75,6 +74,7 @@ a:hover {
 .objetivo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
  margin-top: 100px;
@@ -107,7 +107,7 @@ justify-content: center;
 border-bottom: #af811d;
 border-style: solid;
 border-width: 2px;
-height: 30em
+height: 100%
 }
 
 .headerImg {
@@ -121,6 +121,7 @@ height: 30em
   flex-direction: column;
   align-items: end;
   width: 300px;
+  height: 100%;
   font-size: 30px;
   padding: 10%;
   color: #F7E9BA;
@@ -137,6 +138,7 @@ button {
   border: none;
   background-color: #F7E9BA;
   box-shadow: 2px 2px 10px black;
+  margin:5px;
 }
 
 button:hover {
@@ -177,7 +179,7 @@ h4 {
   align-items: center;
  padding: 20px;
  margin-top:20% ;
- margin-bottom: 20% ;
+ margin-bottom:20% ;
 }
 
 .contactInfo {
@@ -264,6 +266,7 @@ padding: 20px;
 
 .team-card {
   width: 250px;
+  height: 760px;
   background: #F7E9BA;
   border-radius: 15px;
   box-shadow: 2px 5px 15px rgba(0,0,0,0.25);

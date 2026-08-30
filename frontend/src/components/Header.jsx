@@ -15,7 +15,31 @@ export default function Header() {
           target="https://buy.stripe.com/cNi3cve058sU4HS50iasg01"
           className="donationButton"
         >
-          <button>Donar</button>
+          <button>Donar Una Vez</button>
+          
+        </a>
+        <a
+          href="https://buy.stripe.com/6oU14n3lr8sUgqA9gyasg02"
+          target="https://buy.stripe.com/6oU14n3lr8sUgqA9gyasg02"
+          className="donationButton"
+        >
+          <button>Plateado Mensual</button>
+          
+        </a>
+        <a
+          href="https://buy.stripe.com/3cIcN5f49cJa3DO78qasg03"
+          target="https://buy.stripe.com/3cIcN5f49cJa3DO78qasg03"
+          className="donationButton"
+        >
+          <button>Oro Mensual</button>
+          
+        </a>
+        <a
+          href="https://buy.stripe.com/eVq14n6xDaB20rCcsKasg04"
+          target="https://buy.stripe.com/eVq14n6xDaB20rCcsKasg04"
+          className="donationButton"
+        >
+          <button>Platino Mensual</button>
           
         </a>
       </div>
