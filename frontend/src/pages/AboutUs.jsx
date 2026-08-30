@@ -1,4 +1,4 @@
-import DirectorCard from '../components/DirectorCard'
+import TeamMember from "../components/TeamMember";
 
 export default function AboutUs() {
   return (
@@ -6,12 +6,7 @@ export default function AboutUs() {
       <div className="aboutUsContainerOne">
         <h3>PORQUE EL QUERER AYUDAR?</h3>
         <div className="aboutTextContainer">
-          <p
-            style={{
-              width: 90,
-              marginRight: 100
-            }}
-          >
+          <p>
             PORQUE CADA DIA ES MAS DIFICIL PODER HACER EL GASTO DE UN FUNERAL Y
             MAS CUANDO NO LO ESPERAS O CUANDO NO CUENTAS CON LOS RECURSOS PARA
             PAGAR.
@@ -29,16 +24,31 @@ export default function AboutUs() {
         </div>
       </div>
       <div className="messagesContainer">
-        <div>
-<img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415153/jose%20de%20arimatea/ChatGPT_Image_Oct_8_2025_12_52_12_AM_ajqqgn.png" alt="bible image" className="bibleImg" />
-        </div>
         <div className="textMessage">
-            <p>"UNA FE SIN OBRAS ES UNA FE MUERTA" "FAITH WITHOUT WORKS IS DEAD"</p>
-<p> "EL QUE NO VIVE PARA SERVIR NO SIRVE  PARA VIVIR"                                              "HE WHO DOES NOT LIVE TO SERVE DOES NOT DESERVE TO LIVE"</p>
-<p>"HACER UNA DONACION ES LA MAXIMA SENAL DE SOLIDARIDAD. LAS ACCIONES HABLAN MAS FUERTE QUE LAS PALABRAS"
-                                                       -IBRAHIM HOOPER.</p>
+          <p>
+            "UNA FE SIN OBRAS ES UNA FE MUERTA" "FAITH WITHOUT WORKS IS DEAD"
+          </p>
+          <p>
+            {" "}
+            "EL QUE NO VIVE PARA SERVIR NO SIRVE PARA VIVIR" 
+          </p>
+          <p>
+            "HACER UNA DONACION ES LA MAXIMA SENAL DE SOLIDARIDAD. LAS ACCIONES
+            HABLAN MAS FUERTE QUE LAS PALABRAS" -IBRAHIM HOOPER.
+          </p>
         </div>
-<DirectorCard />
+      </div>
+      <div className="teamContainer">
+        <TeamMember
+          image="https://res.cloudinary.com/dkaeetuud/image/upload/v1763420607/jose%20de%20arimatea/IMG_4119_r8le5i.webp"
+          name="Fernando Perea"
+          role="Director"
+        />
+        <TeamMember
+          image="https://res.cloudinary.com/dkaeetuud/image/upload/v1763420606/jose%20de%20arimatea/IMG_4122_c0uco4.webp"
+          name="Nancy J Rodriguez"
+          role="Vicepresidenta"
+        />
       </div>
     </div>
   );

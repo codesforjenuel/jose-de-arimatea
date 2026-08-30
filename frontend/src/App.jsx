@@ -7,8 +7,8 @@ import Mission from "./pages/OurMission";
 // import HowWeHelp from "./pages/HowWeHelp";
 // import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/ContactUs";
-// import Donate from "./pages/Donate";
-import Header from "./components/Header"
+
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
         {/* <Route path="/how-we-help" element={<HowWeHelp />} /> */}
         {/* <Route path="/testimonials" element={<Testimonials />} /> */}
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/donate" element={<Donate />} /> */}
       </Routes>
       <Footer />
     </>

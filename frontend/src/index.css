@@ -8,19 +8,30 @@ margin: 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: #CAA356;
+ background-image: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1763428041/jose%20de%20arimatea/ChatGPT_Image_Nov_17_2025_05_06_26_PM_fydszl.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
  width: 100%;
- font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: 'Lora', serif;
 }
 
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* Nav component */
+
+
 .nav {
-  height: 100%;
+position: fixed;
+  height: 5.5%;
   width: 100%;
   margin: 0;
   display: flex;
   flex-direction: row;
-
-  background-color:#F7E9BA;
+  background-color:#e2b656;
 }
 
 ul {
@@ -42,7 +53,7 @@ ul {
 
  li:hover {
   transition: 300ms;
-background-color: #CAA356;
+background-color: #af811d;
  }
 a {
  text-decoration: none;
@@ -55,16 +66,47 @@ a:hover {
   
 }
 
+/* Home Section */
+
+.homeContainer {
+  text-align: center;
+}
+
+.objetivo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+
+.joseImg {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.joseInformacion {
+  width: 300px;
+   font-size: medium;
+   margin:5%;
+}
+
+.carouselComp {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .header {
-  background: url("https://res.cloudinary.com/dkaeetuud/image/upload/v1759993238/jose%20de%20arimatea/Jose-de-Arimatea-paint-1_fjxphx.jpg");
-background-position:center;
-background-repeat: none;
   display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-box-shadow: 2px 5px 30px 1px #F7E9BA;
+border-bottom: #af811d;
+border-style: solid;
+border-width: 2px;
 height: 30em
 }
 
@@ -103,6 +145,8 @@ button:hover {
   transition: 500ms;
 }
 
+/* About Us Section */
+
 .missionContainer {
 display: flex;
 flex-direction: row;
@@ -110,92 +154,18 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 background: #F7E9BA ;
-padding: 1%;
-margin: 4%;
 border-radius: 10px;
 box-shadow: 2px 7px 20px black;
+width: 100%;
+height: 100%;
 }
 
-.missionText {
-  padding: 2%;
-  width: 40%;
+.missionImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
 }
 
-.missionRight {
-  background-color: #CAA356;
-  border-radius: 20px;
-  padding: 3%;
-  box-shadow: 2px 7px 20px black;
-}
-
-.aboutUsContainerOne {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10%;
-  margin: 10%;
-  border-style: solid;
-  border-width: 2px;
-  border-color:#F7E9BA;
-  border-radius: 10px;
-  font-size: 80%;
-}
-
-.bibleImg {
-  width: 100px;
-}
-
-.aboutTextContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.messagesContainer {
-  background: #e0c97b;
- margin: 80px;
- padding: 50px;
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- align-items: center;
-}
-
-.textMessage {
-  width: 500px;
-}
-
-.directorContainer {
-  background-color:#e0c97b;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10%;
-  margin: 10%;
-  box-shadow: 2px 5px 10px black;
-  border-radius: 20px;
-}
-
-.directorInfo {
-  width: 400px;
-  height: 400px;
-  background:#F7E9BA;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  box-shadow: 2px 5px 10px black;
-}
-
-.directorImg {
-  width: 70%;
-}
 h4 {
   width: 300px;
   margin: 20px;
@@ -205,7 +175,9 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
- pad: 20px;
+ padding: 20px;
+ margin-top:20% ;
+ margin-bottom: 20% ;
 }
 
 .contactInfo {
@@ -232,4 +204,95 @@ margin-top: 80px;
 .socialIcon:hover {
   box-shadow: 2px 5px 10px black;
   border-radius: 50px;
+}
+
+/* about us section */
+
+.aboutUsContainerOne {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  margin: 10%;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#e2b656;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: medium;
+}
+
+.messagesContainer {
+  height: 300px;
+background: #F7E9BA;
+  margin-bottom: 100px;
+ padding: 60px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+.textMessage {
+padding: 20px;
+ font-size: medium;
+ border-style:solid;
+ border-color: white;
+ border-radius: 10px;
+ border-width: 2px;
+}
+
+
+.teamContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card {
+  width: 250px;
+  background: #F7E9BA;
+  border-radius: 15px;
+  box-shadow: 2px 5px 15px rgba(0,0,0,0.25);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-photo {
+  width: 240px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.25);
+}
+
+.team-name {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-role {
+  color: #4a4a4a;
+  margin-top: 5px;
+  font-size: 15px;
 }
