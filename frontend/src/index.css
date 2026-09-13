@@ -165,7 +165,7 @@ h1, h2, h3 {
 
 /* Main Section Setup */
 .about-container {
-  background-color: #140c27; /* Dark Purple */
+  background-color: hsl(259, 50%, 22%); /* Dark Purple */
   padding: 60px 20px;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@ h1, h2, h3 {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  background-color: rgba(30, 18, 58, 0.45); /* Deep Purple transparent */
+  background-color: rgba(34, 21, 65, 0.45); /* Deep Purple transparent */
   border: 1px solid #3c236e;
   border-radius: 16px;
   max-width: 950px;
@@ -309,7 +309,7 @@ h1, h2, h3 {
 
 /* Hero Main Container */
 .hero-container {
-  background-color: #140c27; /* Deep Purple */
+  background-color: #211441; /* Deep Purple */
   color: #ffffff;
   padding: 100px 24px 80px 24px;
   display: flex;
@@ -360,7 +360,7 @@ h1, h2, h3 {
 
 /* Right Column: Card Container */
 .hero-card {
-  background-color: rgba(30, 18, 58, 0.55); /* Dark Purple Card */
+  background-color: rgb(255, 255, 255); /* Dark Purple Card */
   border: 1px solid #3c236e;
   border-radius: 16px;
   padding: 36px 32px;
@@ -371,7 +371,7 @@ h1, h2, h3 {
 .card-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #1a1919a6;
   margin: 0 0 6px 0;
 }
 
