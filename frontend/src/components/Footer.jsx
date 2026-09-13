@@ -1,15 +1,93 @@
 export default function Footer() {
-    return(
-        <div className="footerStyle">
-            <p>EIN # 36-5146957</p>
-            <div>
-            <a href="https://www.facebook.com/profile.php?id=61581171410451">
-            <img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/facebook-new_rqkuj6.png" alt="facebook icon" className="socialIcon" />
-            </a>
-            <a href="https://www.instagram.com/josedearimateaorg/?hl=en">
-            <img src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/CIS-A2K_Instagram_Icon__Black.svg_brewnp.png" alt="instagram icon" className="socialIcon" />
-            </a>
-            </div>
+  return (
+    <footer className="site-footer">
+      <div className="footer-top-accent"></div>
+
+      <div className="footer-content">
+        {/* Column 1: Brand & Mission */}
+        <div className="footer-brand">
+          <h3 className="footer-title">Fundación José de Arimatea</h3>
+          <p className="footer-mission">
+            Ofrecemos apoyo económico a familias de escasos recursos para cubrir gastos de servicios funerarios.
+          </p>
+          <div className="ein-badge">EIN # 36-5146957</div>
         </div>
-    )
+
+        {/* Column 2: Quick Links */}
+        <div className="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        {/* Column 3: Contact Info */}
+        <div className="footer-contact">
+          <h4>Contáctanos</h4>
+          <ul>
+            <li><a href="mailto:info@josedearimatea.com">info@josedearimatea.com</a></li>
+            <li>949-690-4199</li>
+            <li>1651 E Edinger Avenue, Santa Ana CA, 92705</li>
+          </ul>
+        </div>
+
+        {/* Column 4: Socials & CTA */}
+        <div className="footer-action">
+          <h4>Síguenos</h4>
+          <div className="social-icons">
+            <a 
+              href="https://www.facebook.com/profile.php?id=61581171410451" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <img 
+                src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/facebook-new_rqkuj6.png" 
+                alt="Facebook" 
+                className="socialIcon" 
+              />
+            </a>
+            <a 
+              href="https://www.instagram.com/josedearimateaorg/?hl=en" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <img 
+                src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/CIS-A2K_Instagram_Icon__Black.svg_brewnp.png" 
+                alt="Instagram" 
+                className="socialIcon" 
+              />
+            </a>
+            <a 
+              href="https://www.tiktok.com/@josedearimateacorp" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <img 
+                src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/3116491_cfnz9e.png" 
+                alt="TikTok" 
+                className="socialIcon" 
+              />
+            </a>
+          </div>
+          <button className="footer-donate-btn">Donar Ahora</button>
+        </div>
+      </div>
+
+      {/* Bottom Legal Bar */}
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} Fundación José de Arimatea. Todos los derechos reservados.</p>
+        <div className="footer-legal">
+          <a href="#privacidad">Política de Privacidad</a>
+          <span className="separator">|</span>
+          <a href="#terminos">Términos de Servicio</a>
+        </div>
+      </div>
+    </footer>
+  );
 }
