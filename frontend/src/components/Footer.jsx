@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -17,10 +19,10 @@ export default function Footer() {
         <div className="footer-links">
           <h4>Enlaces Rápidos</h4>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#quienes-somos">Quiénes Somos</a></li>
-            <li><a href="#mision">Misión</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/about-us">Quiénes Somos</Link></li>
+            <li><Link to="/mission">Misión</Link></li>
+            <li><Link to="/contact">Contacto</Link></li>
           </ul>
         </div>
 
@@ -66,7 +68,7 @@ export default function Footer() {
               href="https://www.tiktok.com/@josedearimateacorp" 
               target="_blank" 
               rel="noopener noreferrer"
-              aria-label="Instagram"
+              aria-label="TikTok"
             >
               <img 
                 src="https://res.cloudinary.com/dkaeetuud/image/upload/v1760415152/jose%20de%20arimatea/3116491_cfnz9e.png" 
@@ -75,7 +77,14 @@ export default function Footer() {
               />
             </a>
           </div>
-          <button className="footer-donate-btn">Donar Ahora</button>
+          <a
+            href="https://buy.stripe.com/cNi3cve058sU4HS50iasg01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-donate-btn"
+          >
+            Donar Ahora
+          </a>
         </div>
       </div>
 
@@ -83,9 +92,9 @@ export default function Footer() {
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Fundación José de Arimatea. Todos los derechos reservados.</p>
         <div className="footer-legal">
-          <a href="#privacidad">Política de Privacidad</a>
+          <Link to="/privacy">Política de Privacidad</Link>
           <span className="separator">|</span>
-          <a href="#terminos">Términos de Servicio</a>
+          <Link to="/terms">Términos de Servicio</Link>
         </div>
       </div>
     </footer>
